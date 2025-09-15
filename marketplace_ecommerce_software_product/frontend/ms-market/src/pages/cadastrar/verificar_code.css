@@ -1,0 +1,49 @@
+.verificar-container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .verificar-container h2 {
+    margin-bottom: 1.5rem;
+    color: #2c3e50;
+  }
+  
+  .verificar-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .verificar-container input {
+    padding: 12px;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+  }
+  
+  .verificar-container input:focus {
+    border-color: #3498db;
+    outline: none;
+  }
+  
+  .verificar-container button {
+    padding: 12px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .verificar-container button:hover {
+    background-color: #2980b9;
+  }
